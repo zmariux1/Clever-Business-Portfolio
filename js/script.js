@@ -87,6 +87,7 @@ ScrollReveal().reveal("header .container h2, .contact ul, .details ul", { origin
 ScrollReveal().reveal(".details-2 ul", { origin: "right" });
 
 
+
 ScrollReveal({
   reset: true,
   distance: "80px",
