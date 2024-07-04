@@ -13,6 +13,10 @@
   width: 24px;
 }
 
+.fa-check {
+  padding-top: 7px !important;
+}
+
 .hr-heading {
   display: inline-block;
   width: 3.5rem;
