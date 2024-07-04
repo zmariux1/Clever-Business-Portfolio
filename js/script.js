@@ -56,3 +56,51 @@ if (videoModal !== null) {
     video.setAttribute('src', videoSrc);
   });
 }
+
+
+// ===================== Scroll Reveal ===================== 
+
+
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 200
+});
+
+ScrollReveal().reveal("", { origin: "top" });
+ScrollReveal().reveal(".partners, .animatedD p", { origin: "bottom" });
+ScrollReveal().reveal(".header", { origin: "left" });
+ScrollReveal().reveal("", { origin: "right" });
+
+
+
+// portfolio delay presentation  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 600
+});
+ScrollReveal().reveal(".partners img", { origin: "bottom" });
+ScrollReveal().reveal("header .container h2, .contact ul, .details ul", { origin: "left" });
+ScrollReveal().reveal(".details-2 ul", { origin: "right" });
+
+
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 800
+});
+ScrollReveal().reveal("header .container h1, myContacts", { origin: "left" });
+
+
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 900
+});
+ScrollReveal().reveal("", { origin: "bottom" });
+ScrollReveal().reveal("header .container p, header .container a", { origin: "left" });
