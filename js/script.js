@@ -60,6 +60,15 @@ if (videoModal !== null) {
 
 // ===================== Scroll Reveal ===================== 
 
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 1500,
+  delay: 100
+});
+
+ScrollReveal().reveal(".animatedD p", { origin: "bottom" });
+
 
 ScrollReveal({
   reset: true,
@@ -69,9 +78,9 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal("", { origin: "top" });
-ScrollReveal().reveal(".partners, .animatedD p", { origin: "bottom" });
-ScrollReveal().reveal(".header", { origin: "left" });
-ScrollReveal().reveal("", { origin: "right" });
+ScrollReveal().reveal(".partners", { origin: "bottom" });
+ScrollReveal().reveal(".header, .contact ul, .details ul", { origin: "left" });
+ScrollReveal().reveal(".details-2 ul", { origin: "right" });
 
 
 
@@ -83,8 +92,8 @@ ScrollReveal({
   delay: 600
 });
 ScrollReveal().reveal(".partners img", { origin: "bottom" });
-ScrollReveal().reveal("header .container h2, .contact ul, .details ul", { origin: "left" });
-ScrollReveal().reveal(".details-2 ul", { origin: "right" });
+ScrollReveal().reveal("header .container h2", { origin: "left" });
+ScrollReveal().reveal("", { origin: "right" });
 
 
 
