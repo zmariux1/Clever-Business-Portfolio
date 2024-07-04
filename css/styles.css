@@ -46,6 +46,13 @@ section {
   width: 24px;
 }
 
+.myContacts {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
 .details-2 .vertical-decoration {
   top: 5%;
   right: 0;
